@@ -6,8 +6,8 @@ $ErrorActionPreference = 'Stop'
 $script:CleanOSName = 'CleanOS'
 $script:CleanOSVersion = '0.1.0'
 # Before publishing, replace OWNER/REPO with the real GitHub repository.
-$script:CleanOSRepository = 'https://github.com/OWNER/CleanOS'
-$script:CleanOSRawScriptUrl = 'https://raw.githubusercontent.com/OWNER/CleanOS/main/CleanOS.ps1'
+$script:CleanOSRepository = 'https://github.com/crty-dev/CleanOS'
+$script:CleanOSRawScriptUrl = 'https://raw.githubusercontent.com/crty-dev/CleanOS/main/CleanOS.ps1'
 $script:CleanOSLocalScriptPath = $null
 if (-not [string]::IsNullOrWhiteSpace($PSCommandPath) -and (Split-Path -Leaf $PSCommandPath) -ieq 'CleanOS.ps1') { $script:CleanOSLocalScriptPath = $PSCommandPath }
 $script:CleanOSNoColor = [bool]$NoColor
