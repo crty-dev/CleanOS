@@ -38,13 +38,13 @@ Set-Location C:\Path\To\CleanOS
 Bu proje henüz senin GitHub hesabında yayımlanmadığından aşağıdaki URL'deki `OWNER` bir yer tutucudur. Gerçek depoyu oluşturup `CleanOS.ps1` dosyasını `main` dalına gönderdikten sonra `OWNER` bölümünü GitHub kullanıcı adın/organizasyonunla değiştir:
 
 ```powershell
-irm https://raw.githubusercontent.com/OWNER/CleanOS/main/CleanOS.ps1 | iex
+irm https://raw.githubusercontent.com/crty-dev/CleanOS/main/CleanOS.ps1 | iex
 ```
 
 Bu komut internetten alınan PowerShell kodunu **doğrudan çalıştırır**. Depo veya yayın hesabı ele geçirilirse indirilen kod da değiştirilebilir. Kullanıcıya dağıtım yapmadan önce sürüm etiketlerini, yayın yetkilerini ve değişiklik incelemesini koruyun. Daha sıkı kontrol isteyenler belirli bir sürüm etiketi kullanabilir:
 
 ```powershell
-irm https://raw.githubusercontent.com/OWNER/CleanOS/v0.1.0/CleanOS.ps1 | iex
+irm https://raw.githubusercontent.com/crty-dev/CleanOS/v0.1.0/CleanOS.ps1 | iex
 ```
 
 ### Yönetici oturumuyla başlatma
